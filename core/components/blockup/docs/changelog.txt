@@ -1,0 +1,6 @@
+++ blockup 0.0.0-dev
+++ Released on 2015-08-09
++++++++++++++++++++++++++
+- Initial Release
+- Adds Uploadcare uploader as a ContentBlocks Field Input Type
+
