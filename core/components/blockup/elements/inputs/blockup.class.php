@@ -113,7 +113,7 @@ class blockupInput extends cbBaseInput {
     }
     
     public function getDescription() {
-        $this->modx->log(modX::LOG_LEVEL_ERROR,"getDescription\n");
+        //$this->modx->log(modX::LOG_LEVEL_ERROR,"getDescription\n");
         return 'With Blockup you can insert ContentBlocks images using Uploadcare.'; 
         // return $this->modx->lexicon('blockup.input_description');
     }
@@ -123,7 +123,7 @@ class blockupInput extends cbBaseInput {
      */
     public function getJavaScripts() {
         $assetsUrl = $this->modx->getOption('blockup.assets_url', null, MODX_ASSETS_URL . 'components/blockup/');
-        $this->modx->log(modX::LOG_LEVEL_ERROR,"getJavaScripts\n");
+        //$this->modx->log(modX::LOG_LEVEL_ERROR,"getJavaScripts\n");
         return array(
             $assetsUrl . 'js/inputs/blockup.js'
         );
@@ -133,7 +133,7 @@ class blockupInput extends cbBaseInput {
      * @return array
      */
     public function getTemplates() {
-        $this->modx->log(modX::LOG_LEVEL_ERROR,"getTemplates\n");
+        //$this->modx->log(modX::LOG_LEVEL_ERROR,"getTemplates\n");
         $tpls = array();
         
         // Grab the template from a .tpl file
